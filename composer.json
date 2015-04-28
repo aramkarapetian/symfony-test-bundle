@@ -1,6 +1,13 @@
 {
     "name": "akarapetyan/symfony-test-bundle",
     "description": "Testing how does bundle work via vendors and installed via composer",
+    "type" : "symfony-bundle",
+    "autoload" : {
+        "psr-0" : {
+            "aramkarapetian\\SymfonyTestBundle" : ""
+        }
+    },
+    "target-dir" : "aramkarapetian/SymfonyTestBundle",
     "require": {
         "php": ">=5.3.2",
         "symfony/framework-bundle": "~2.3",
@@ -11,5 +18,10 @@
             "name": "Aram Karapetyan",
             "email": "aram.karapetyan@learnship.com"
         }
-    ]
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev": "develop"
+        }
+    }
 }
