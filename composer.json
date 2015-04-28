@@ -1,5 +1,5 @@
 {
-    "name": "akarapetyan/symfony-test-bundle",
+    "name": "aramkarapetian/symfony-test-bundle",
     "description": "Testing how does bundle work via vendors and installed via composer",
     "type" : "symfony-bundle",
     "autoload" : {
